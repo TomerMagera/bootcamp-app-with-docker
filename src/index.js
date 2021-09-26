@@ -7,7 +7,7 @@ const init = async () => {
 	dotenv.config();
 	const config = {
 		port: process.env.PORT || 3000,
-		host: process.env.HOST || "localhost"
+		host: process.env.HOST || "34.91.200.208"
 	};
 	const server = await createServer( config );
 	await server.start();
